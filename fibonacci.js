@@ -1,6 +1,6 @@
 function fibs(n) {
-	if (n === 0) return [0];
-	if (n === 1) return [0, 1];
+	if (n === 0) return [];
+	if (n === 1) return [0];
 
 	const fibsArray = [0, 1];
 	let current = 0;
@@ -27,4 +27,4 @@ function fibsRec(n, fibsArray = [0, 1]) {
 	return fibsRec(n, fibsArray);
 }
 
-console.log(fibsRec(8));
+console.log(fibsRec(1));
